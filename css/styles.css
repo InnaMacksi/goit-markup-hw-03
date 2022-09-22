@@ -10,6 +10,17 @@
   --color-button-hero-focus: #188ce8;
   --color-contact-in-footer: rgba(255, 255, 255, 0.6);
 }
+
+p,h1,h2,h3 {
+  margin: 0;
+}
+
+ul{
+  margin: 0;
+  padding-left: 0;
+}
+
+
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
@@ -26,7 +37,19 @@ body {
 
 /* -----------HEADER---------------- */
 .header {
+  /* display: inline-block; */
+  background-color: aquamarine;
 }
+
+.container {
+  /* display: inline-block; */
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  outline: 2px red;
+}
+
 .logo-blue {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
