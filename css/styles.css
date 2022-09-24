@@ -119,6 +119,7 @@ body {
 .hero {
   background: var(--color-bg-hero-and-footer);
 }
+
 .hero-container {
   display: flex;
   flex-direction: column;
@@ -202,8 +203,12 @@ body {
 .section-our-work {
   display: flex;
   gap: 30px;
-  /* --не змогла прибрати нижні відступи 4px на картинках-- */
 }
+
+.work-tim-project-img {
+  display: block;
+}
+
 .title-section {
   margin-bottom: 50px;
   font-size: 36px;
@@ -225,10 +230,7 @@ body {
 .section-our-tim {
   background: var(--color-bg-our-tim-and-bg-button-our-projects);
 }
-/* .test {
-  display: block;
-} */
-/* знову ці нижні відступи */
+
 .list-our-tim {
   background-color: var(--color-bg-header-and-logo-btn-addres);
 }
@@ -251,8 +253,6 @@ body {
 /* ------------PORTFOLIO----------------- */
 /* ------SECTION-------НАШІ-РОБОТИ---*/
 
-.section-our-projects {
-}
 .container-btn {
   display: flex;
   justify-content: center;
@@ -303,10 +303,6 @@ body {
   column-gap: 30px;
   row-gap: 30px;
 }
-/* знову тут ці 4px */
-/* .test {
-  display: block;
-} */
 
 .img-project {
   border-bottom: 1px solid #EEEEEE;
@@ -332,10 +328,6 @@ body {
   padding-top: 60px;
   padding-bottom: 60px;
 }
-
-/* .logo-footer {
-  margin-bottom: 20px;
-} */
 
 .logo-white {
   color: var(--color-bg-header-and-logo-btn-addres);
