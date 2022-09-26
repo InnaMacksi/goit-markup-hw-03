@@ -223,18 +223,20 @@ body {
   gap: 30px;
 }
 .text-our-tim {
-  padding-bottom: 30px;
+  padding: 30px;
 }
 
 .img-our-tim {
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
 }
 .section-our-tim {
   background: var(--color-bg-our-tim-and-bg-button-our-projects);
 }
 
 .list-our-tim {
-border: 1px solid #EEEEEE;
+  border: 1px solid #eeeeee;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
   background-color: var(--color-bg-header-and-logo-btn-addres);
 }
@@ -308,15 +310,15 @@ border: 1px solid #EEEEEE;
 }
 
 .item-our-project {
-/* border: 1px solid #EEEEEE; */
+  /* border: 1px solid #EEEEEE; */
 }
 
 .img-project {
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
 }
 
 .project-type {
-  padding-bottom: 20px;
+  /* padding-bottom: 20px; */
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
@@ -325,7 +327,8 @@ border: 1px solid #EEEEEE;
 .text-our-project {
   padding: 20px 24px;
   display: block;
-  border: 1px solid #EEEEEE;
+  border: 1px solid #eeeeee;
+  border-top: none;
 }
 
 .capital-letters {
